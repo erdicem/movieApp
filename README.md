@@ -2,7 +2,7 @@
 
 Movie App is an iOS application developed using the MVVM architecture pattern in Swift. It allows users to browse a list of movies and view detailed information about each movie.
 
-![Uploading ezgif.com-video-to-gif (1).gif…]()
+![ezgif com-video-to-gif (1)](https://github.com/erdicem/movieApp/assets/58256667/b3fa97d7-855f-4482-b4fb-bf19a5291f68)
 
 ## Features
 
