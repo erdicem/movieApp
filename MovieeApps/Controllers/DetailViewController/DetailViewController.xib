@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="MovieeApps" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionLabel" destination="mE4-ad-9Bc" id="TmG-Mg-kzx"/>
+                <outlet property="imageView" destination="hc3-Lv-6WL" id="Cvg-1V-FXE"/>
+                <outlet property="titleLabel" destination="KeY-z9-3WR" id="b7u-gB-1LP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hc3-Lv-6WL">
+                    <rect key="frame" x="8" y="59" width="377" height="217"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeY-z9-3WR">
+                    <rect key="frame" x="8" y="292" width="377" height="33.666666666666686"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mE4-ad-9Bc">
+                    <rect key="frame" x="8" y="341.66666666666674" width="377" height="431.33333333333326"/>
+                    <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mutableString>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KeY-z9-3WR" secondAttribute="trailing" constant="8" id="Jym-h1-YLA"/>
+                <constraint firstItem="hc3-Lv-6WL" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.254695" id="LCV-UV-RIF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mE4-ad-9Bc" secondAttribute="trailing" constant="8" id="Ury-gd-9Vf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mE4-ad-9Bc" secondAttribute="bottom" constant="45" id="Y5Y-8Y-iic"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hc3-Lv-6WL" secondAttribute="trailing" constant="8" id="cgs-RD-nas"/>
+                <constraint firstItem="hc3-Lv-6WL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="hT8-jZ-Jdv"/>
+                <constraint firstItem="mE4-ad-9Bc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="kGW-Sx-P5g"/>
+                <constraint firstItem="hc3-Lv-6WL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kNF-5V-rve"/>
+                <constraint firstItem="KeY-z9-3WR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="sc0-wa-dmi"/>
+                <constraint firstItem="KeY-z9-3WR" firstAttribute="top" secondItem="hc3-Lv-6WL" secondAttribute="bottom" constant="16" id="tcB-oR-Lia"/>
+                <constraint firstItem="KeY-z9-3WR" firstAttribute="height" secondItem="mE4-ad-9Bc" secondAttribute="height" multiplier="0.0781129" id="xna-cL-q09"/>
+                <constraint firstItem="mE4-ad-9Bc" firstAttribute="top" secondItem="KeY-z9-3WR" secondAttribute="bottom" constant="16" id="zde-UV-Xf1"/>
+            </constraints>
+            <point key="canvasLocation" x="32.824427480916029" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
